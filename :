@@ -1,0 +1,13 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: banglore-pod
+  labels:
+    env: development
+    class: pods
+spec:
+  containers:
+    - name: label-cont1
+      image: ubuntu
+      command: ["/bin/bash", "-c", "while true; do echo Hello-lokeshkumar; sleep 5 ; done"]
+

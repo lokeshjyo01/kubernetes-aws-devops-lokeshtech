@@ -1,0 +1,6 @@
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: lokesh-ns3
+  labels: 
+    name: lokesh-label-ns3

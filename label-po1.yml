@@ -1,0 +1,13 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: banglore-pod
+  labels:
+    env: development
+    class: pods
+spec:
+  containers:
+    - name: label-cont1
+      image: ubuntu
+
+
